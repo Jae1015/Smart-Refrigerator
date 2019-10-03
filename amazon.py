@@ -1,3 +1,4 @@
+######################################################################################
 # this script captures image with Pi Camera
 # performs image recognition using AWS Rekognition Engine
 # and then calls AWS Polly Speech Synthesis API to describe the items found in the image
@@ -47,4 +48,4 @@ print "function called"
 items = image_recognition(image_file)
 print "function returned"
 print items
-
+####END PROGRAM##########################################################################################
